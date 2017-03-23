@@ -28,7 +28,7 @@ $(document).ready(function(){
 </script>
 </body>
 </html>
-<?
+<?php
 session_start();
  
 function loginForm(){
