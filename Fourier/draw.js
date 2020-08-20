@@ -1,8 +1,10 @@
 function draw(fourier) {
     const ITERATIONS = 10000
 
-    let canvas = document.getElementById("res")
+    let canvas = document.getElementById("canvas")
     let ctx = canvas.getContext("2d")
+    ctx.lineWidth = 2
+    ctx.strokeStyle = "blue"
 
     const OGX = X_WIDTH / 2 + fourier.c0[0]
     const OGY = Y_WIDTH / 2 + fourier.c0[1]
